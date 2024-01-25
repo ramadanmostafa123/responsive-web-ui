@@ -60,7 +60,7 @@ class FileInfoCardGridView extends StatelessWidget {
   }) : super(key: key);
 
   final int crossAxisCount;
-  final double childAspectRatio;
+  final double childAspectRatio;//نسبة البعد بين الويدجيتس
 
   @override
   Widget build(BuildContext context) {
